@@ -11,15 +11,16 @@
 :root{
  --primary-font: 'Roboto', sans-serif;
  --secondary-font: 'Raleway', sans-serif;
- --primaty-text-color: #434455;
- --secondory-text-color: #2E2F42;
- --primery-accent-color: #4D5AE5;
- --secondort-accent-color: #404BBF;
- --primery-white-color: #F4F4FD
+ --primary-text-color: #434455;
+ --secondary-text-color: #2E2F42;
+ --primary-accent-color: #4D5AE5;
+ --secondary-accent-color: #404BBF;
+ --primary-white-color: #F4F4FD
 
 } 
 
-    /* ================= Resetting styles ==================== */
+
+    /* ================= Resetting styles =================== */
 
 .list{
     list-style: none;
@@ -31,7 +32,7 @@
     /* =================/Resetting styles==================== */
 
 
-    /* =================== COMPONENTS ======================== */
+    /* =================== COMPONENTS ======================= */
 
 .logo{
     font-family: var(--secondary-font);
@@ -40,7 +41,7 @@
     font-size: 18px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: var(--primery-accent-color);
+    color: var(--primary-accent-color);
     }
 
 .heading{
@@ -49,7 +50,7 @@
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--secondory-text-color);
+    color: var(--secondary-text-color);
 }
 
 .subtitle{
@@ -57,7 +58,7 @@
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--secondory-text-color);
+    color: var(--secondary-text-color);
 }
 
 .text{
@@ -66,16 +67,21 @@
     letter-spacing: 0.02em;
 }   
     
-    /* ===================/COMPONENTS======================== */
+    /* =================== /COMPONENTS ======================== */
 
 body{
     font-family: var(--primary-font);
     background-color: #FFFFFF;
-    color: var(--primaty-text-color);
+    color: var(--primary-text-color);
 }
 
+                                                 /**
+                                                   |============================
+                                                   | Main-page
+                                                   |============================
+                                                 */
 
-    /* =================== Top line ====================== */
+    /* ===================== Top line ======================== */
 
 .logo-top{
     color: #2E2F42;
@@ -86,12 +92,12 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--secondory-text-color);
+    color: var(--secondary-text-color);
 }
 
 .menu-link:hover, 
 .menu-link:focus{
-    color: var(--secondort-accent-color);
+    color: var(--secondary-accent-color);
 }
 
 
@@ -101,20 +107,20 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--primaty-text-color);
+    color: var(--primary-text-color);
 }
 
 .contact-mail:hover,
 .contact-mail:focus,
 .contact-phone:hover,
 .contact-phone:focus{
-    color:var(--secondort-accent-color);
+    color:var(--secondary-accent-color);
 }
 
 
     /* ================== /Top line ====================== */
 
-    /* ===================== Hero ======================= */
+    /* ====================== Hero ======================= */
 
  .hero{
     background-color: #2E2F42;;
@@ -136,28 +142,29 @@ body{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    background-color: var(--primery-accent-color);
+    background-color: var(--primary-accent-color);
+    cursor: pointer;
  }
 
  .hero-btn:hover,
  .hero-btn:focus{
-    background-color: var(--secondort-accent-color);
+    background-color: var(--secondary-accent-color);
  }
 
-    /* ===================== /Hero ======================= */
+    /* ===================== /Hero ========================= */
 
 
-    /* ===================== Studio features ================ */
+    /* ==================== Studio features ================ */
 
-    /* ===================== /Studio features ================ */
-
-
-    /* ==================== Work examples ==================== */
-
-    /* ==================== /Work examples ==================== */
+    /* =================== /Studio features ================ */
 
 
-    /* ====================== Team ======================== */
+    /* =================== Work examples =================== */
+
+    /* ================== /Work examples =================== */
+
+
+    /* ====================== Team ========================= */
 .team-title{
     text-align: center;
 }
@@ -168,18 +175,46 @@ body{
     /* ====================== Team ======================== */
 
 
-    /* ================ Footer ====================== */
+    /* ================== Footer ========================= */
 .footer{
-    background-color: var(--secondory-text-color);
+    background-color: var(--secondary-text-color);
     }
     
 
 .logo-bottom{
-    color: var(--primery-white-color)
+    color: var(--primary-white-color)
 }
 
 .footer-text{
-    color: var(--primery-white-color);
+    color: var(--primary-white-color);
 }
 
-     /* ================ /Footer ====================== */
+     /* ================= /Footer ======================= */
+
+
+                                             /**
+                                               |============================
+                                               | Portfolio-page
+                                               |============================
+                                             */
+
+
+/* ==================== Our projects ================ */
+.filters-btn{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-accent-color);
+    cursor: pointer;
+}
+
+.filters-btn:hover,
+.filters-btn:focus{
+    color: #FFFFFF;
+    background-color: var(--secondary-accent-color);
+}
+
+
+/* ==================== /Our projects ================ */
