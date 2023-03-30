@@ -39,7 +39,7 @@
     text-transform: uppercase;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.7;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--primary-accent-color);
     }
@@ -100,20 +100,19 @@ body{
     color: var(--secondary-accent-color);
 }
 
+.contact-info{
+    font-style:normal;
+}
 
-.contact-mail,
-.contact-phone{
-    font-style: normal;
+.contact-details{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
 
-.contact-mail:hover,
-.contact-mail:focus,
-.contact-phone:hover,
-.contact-phone:focus{
+.contact-details:hover,
+.contact-details:focus{
     color:var(--secondary-accent-color);
 }
 
@@ -165,6 +164,15 @@ body{
 
 
     /* ====================== Team ========================= */
+
+.team{
+    background-color: #F4F4FD;
+}
+
+.team-item{
+    background-color: #FFFFFF;
+}
+
 .team-title{
     text-align: center;
 }
