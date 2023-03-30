@@ -9,13 +9,20 @@
 /* цвет фона страницы вторичный #F4F4FD */
 
 :root{
+
+    /* ===Font=== */
  --primary-font: 'Roboto', sans-serif;
  --secondary-font: 'Raleway', sans-serif;
+    /* ===Color=== */
  --primary-text-color: #434455;
  --secondary-text-color: #2E2F42;
  --primary-accent-color: #4D5AE5;
  --secondary-accent-color: #404BBF;
- --primary-white-color: #F4F4FD
+ --primary-white-color: #F4F4FD;
+ --secondary-white-color: #FFFFFF;
+ --primary-bgc: #FFFFFF;
+ --secondary-bgc: #F4F4FD;
+ --hero-bgc: #2E2F42;
 
 } 
 
@@ -71,7 +78,7 @@
 
 body{
     font-family: var(--primary-font);
-    background-color: #FFFFFF;
+    background-color: var(--primary-bgc);
     color: var(--primary-text-color);
 }
 
@@ -84,7 +91,7 @@ body{
     /* ===================== Top line ======================== */
 
 .logo-top{
-    color: #2E2F42;
+    color: var(--secondary-text-color);
 }
 
 .menu-link{
@@ -122,7 +129,7 @@ body{
     /* ====================== Hero ======================= */
 
  .hero{
-    background-color: #2E2F42;;
+    background-color: var(--hero-bgc);
  }
 
  .hero-title{
@@ -130,7 +137,7 @@ body{
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--secondary-white-color);
 
  }
 
@@ -140,7 +147,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--secondary-white-color);
     background-color: var(--primary-accent-color);
     cursor: pointer;
  }
@@ -166,11 +173,11 @@ body{
     /* ====================== Team ========================= */
 
 .team{
-    background-color: #F4F4FD;
+    background-color: var(--secondary-bgc);
 }
 
 .team-item{
-    background-color: #FFFFFF;
+    background-color: var(--primary-bgc);
 }
 
 .team-title{
@@ -221,7 +228,7 @@ body{
 
 .filters-btn:hover,
 .filters-btn:focus{
-    color: #FFFFFF;
+    color: var(--secondary-white-color);
     background-color: var(--secondary-accent-color);
 }
 
